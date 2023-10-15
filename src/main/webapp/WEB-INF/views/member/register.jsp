@@ -33,7 +33,7 @@
                 <li class="info_line info_gender">
                   <label>성별</label>
                   <div class="check_radio">
-                  남<input type="radio" id="member-gender" name="memberGender" value="남" checked>
+                  남<input type="radio" id="member-gender" name="memberGender" value="남">
                   여<input type="radio" id="member-gender" name="memberGender" value="여">
                   </div>
                 </li>
