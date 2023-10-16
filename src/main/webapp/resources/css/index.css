@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+/* 메인페이지 */
+#happen { background:url(/resources/images/common/main_bg01.jpg); }
+#business { background:url(/resources/images/common/main_bg02.jpg); }
+#portfolio { background:url(/resources/images/common/main_bg03.jpg); }
+#community { background:url(/resources/images/common/main_bg04.jpg); }
+#mainpage .titleBox { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:40px; text-align:center }
+#business .red_txt { color:#e31a20; }
+#community .titleBox { color:#fff; }
+
+/* fp-nav */
+#fp-nav ul li { display: block; width: 30px; height: 30px; margin: 10px 0; position:relative; }
+#fp-nav ul li:last-child {display: none;}
+#fp-nav ul li a { transition: all 0.25s; }
+#fp-nav ul li a:active { opacity: 1; }
+#fp-nav ul li a:after { content: ''; display: block; width:30px; height: 30px; border: 2px solid #fff; border-radius: 100px; box-sizing: border-box; transform: scale(0); transition: all 0.25s;}
+#fp-nav ul li a:before { content: ''; display: block; width:200px; height: 30px; position: absolute; right:0; }
+#fp-nav ul li a span { background: #fff; opacity: 0.5; }
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span{ height: 4px; width: 4px; margin: -2px 0 0 -2px; opacity: 1;}
+#fp-nav ul li a.active:after { transform: scale(1); }
+#fp-nav ul li:hover a span{ width: 4px; height: 4px; margin: -2px 0px 0px -2px; }
+#fp-nav ul li .fp-tooltip { top: 50%; transform: translateY(-50%); text-align: left; font-family: "Noto Sans KR"; max-width: 220px; opacity: 0.5; width: 150px; font-size:18px;}
+#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip { -webkit-transition: opacity 0.2s ease-in; transition: opacity 0.2s ease-in; width: 150px; opacity: 1; }
+
+
+
+
+
+
+
+
+
