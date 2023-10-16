@@ -1,4 +1,4 @@
-package co.kr.love;
+package kr.co.love;
 
 import java.text.DateFormat;
 import java.util.Date;

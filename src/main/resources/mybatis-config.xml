@@ -7,6 +7,7 @@
 		<setting name="jdbcTypeForNull" value="NULL"></setting>
 	</settings>
 	<typeAliases>
+<<<<<<< HEAD
 		<typeAlias type="co.kr.love.member.domain.Member" alias="Member"/>
 		
 	</typeAliases>
@@ -14,4 +15,13 @@
 		<mapper resource="mappers/member-mapper.xml" />
  		
 	</mappers>
+=======
+		<typeAlias type="kr.co.love.member.domain.Member" alias="Member"/>
+		
+	</typeAliases>
+	<mappers>
+		<mapper resource="mappers/member-mapper.xml"/>
+ 		
+	</mappers> 
+>>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
 </configuration>

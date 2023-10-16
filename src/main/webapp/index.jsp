@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
@@ -41,4 +42,17 @@
 		<!-- 푸터 -->
 <%--     	<jsp:include page="/WEB-INF/views/common/footer.jsp"></jsp:include> --%>
 	</body>
+=======
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>메인페이지</title>
+  </head>
+  <body>
+    <h1>메인페이지</h1>
+  </body>
+>>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
 </html>

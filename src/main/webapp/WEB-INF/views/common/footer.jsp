@@ -3,6 +3,7 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <footer id="footer">
     <div class="container">
+<<<<<<< HEAD
       <ul class="fot_topnavi">
       	<li class="fot_topnavi_item"><a href="#">회사소개</a></li>
       	<li class="fot_topnavi_item"><a href="#">채용안내</a></li>
@@ -15,5 +16,8 @@
       	<li class="fot_topnavi_item"><a href="#">사이트맵</a></li>
       </ul>
       <p class="copy_right_txt">&copy; GameDuo Korea Corporation All Rights Reserved.<p>
+=======
+      
+>>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
     </div>
   </footer>
