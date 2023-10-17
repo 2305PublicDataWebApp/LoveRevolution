@@ -7,7 +7,6 @@ function sample4_execDaumPostcode(){
 	}).open();
 }
 
-<<<<<<< HEAD
 // TweenMax 라이브러리
 
 $("#mainpage").fullpage({
@@ -104,8 +103,7 @@ timeline04.staggerFrom(  $("#community .titleBox h2 .char") , 1 , {
 
 
 
-=======
->>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
+
 
 
 

@@ -4,7 +4,7 @@
   <header id="header">
 	  <div class="container">
 	    <h1 class="logo"><a href="/index.jsp">로고</a></h1>
-<<<<<<< HEAD
+
 	    <ul class="menu_right">
 	    	<c:if test = "${memberId eq null}">
         		<li class="menu_right_item"><a href="/member/register.gg">회원가입</a></li>
@@ -22,8 +22,6 @@
         		<li class=menu_right_item><a href="/report/list.gg">신고하기</a></li>
 			</c:if>
 	    </ul>
-=======
-	    
->>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
+
 	  </div>
  </header>

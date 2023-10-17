@@ -4,11 +4,7 @@
 #header { position:fixed; top:0; left:0; width:100%; height:60px; background:#fff; border-bottom: 1px solid #dde1e5; z-index:1000; }
 #header .container { position: relative; height:100%;}
 #header .logo { position:absolute; top:5px; left:50%; transform:translate(-50%,0); }
-<<<<<<< HEAD
 #header .logo a { display:block; font-size:0; width:50px; height:48px; background:url(/resources/images/common/ring_logo.png) center / cover no-repeat; } 
-=======
-#header .logo a { display:block; font-size:0; width:100px; height:44px; background:url(/resources/images/common/vue_logo.png) center / cover no-repeat; } 
->>>>>>> branch 'master' of https://github.com/2305PublicDataWebApp/LoveRevolution.git
 #header .menu_right { position:absolute; top:18px; right:30px; display:flex; }
 #header .menu_right_item a { margin-right:10px; }
 
