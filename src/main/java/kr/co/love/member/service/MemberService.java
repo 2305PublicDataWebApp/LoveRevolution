@@ -6,4 +6,9 @@ public interface MemberService {
 
 	public int registerMember(Member member);
 
+	public Member memberLoginCheck(Member member);
+
+	public Member showOneById(String memberId);
+
+
 }

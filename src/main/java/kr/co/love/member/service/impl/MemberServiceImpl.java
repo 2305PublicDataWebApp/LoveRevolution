@@ -22,4 +22,18 @@ public class MemberServiceImpl implements MemberService {
 		int result = mStore.insertMember(session, member);
 		return result;
 	}
+
+	@Override
+	public Member memberLoginCheck(Member member) {
+		Member mOne = mStore.selectMemberLogin(session, member);
+		return mOne;
+	}
+
+	@Override
+	public Member showOneById(String memberId) {
+		Member member = mStore.selectOneById(session, memberId);
+		return member;
+	}
+
+	
 }

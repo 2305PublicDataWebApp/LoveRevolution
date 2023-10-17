@@ -8,7 +8,6 @@
 	</settings>
 	<typeAliases>
 		<typeAlias type="kr.co.love.member.domain.Member" alias="Member"/>
-		
 	</typeAliases>
 	<mappers>
 		<mapper resource="mappers/member-mapper.xml" />

@@ -15,4 +15,16 @@ public class MemberStoreLogic implements MemberStore {
 		return result;
 	}
 
+	@Override
+	public Member selectMemberLogin(SqlSession session, Member member) {
+		Member mOne = session.selectOne("MemberMapper.selectMemberLogin", member); 
+		return mOne;
+	}
+
+	@Override
+	public Member selectOneById(SqlSession session, String memberId) {
+		Member member = session.selectOne("MemberMapper.selectOneById", memberId);
+		return member;
+	}
+
 }

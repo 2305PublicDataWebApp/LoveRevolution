@@ -8,4 +8,8 @@ public interface MemberStore {
 
 	public int insertMember(SqlSession session, Member member);
 
+	public Member selectMemberLogin(SqlSession session, Member member);
+
+	public Member selectOneById(SqlSession session, String memberId);
+
 }

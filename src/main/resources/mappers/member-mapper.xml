@@ -13,10 +13,16 @@
 	</resultMap>
 	
 	<insert id="insertMember">
-		INSERT INTO MEMBER_TBL VALUES(#{memberId }, #{memberPw }, 
-		#{memberName }, #{memberAge }, #{memberGender }, 
-		#{memberEmail }, #{memberPhone }, #{memberAddress })
+		INSERT INTO MEMBER_TBL VALUES(#{memberId }, #{memberPw }, #{memberName }, #{memberAge }, #{memberGender },#{memberEmail }, #{memberPhone }, #{memberAddress })
 	</insert>
+	
+	<select id="selectMemberLogin" resultMap="memberResultMap">
+		SELECT * FROM MEMBER_TBL WHERE MEMBER_ID = #{memberId } AND MEMBER_PW = #{memberPw }
+	</select>
+	
+	<select id="selectOneById" resultMap="memberResultMap">
+		SELECT * FROM MEMBER_TBL WHERE MEMBER_ID = #{memberId }
+	</select>
 	
 	
 	
