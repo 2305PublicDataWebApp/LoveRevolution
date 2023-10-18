@@ -8,7 +8,6 @@ function sample4_execDaumPostcode(){
 }
 
 // TweenMax 라이브러리
-
 $("#mainpage").fullpage({
     navigation: true,
     navigationTooltips: ["회원수","사업","성혼","하이엔드"],
@@ -99,7 +98,7 @@ timeline04.staggerFrom(  $("#community .titleBox h2 .char") , 1 , {
     stagger:0.05
 })    
 
-                                                                                              
+                                                                                         
 
 
 

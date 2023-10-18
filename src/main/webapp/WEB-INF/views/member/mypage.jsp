@@ -21,7 +21,7 @@
               </li>
               <li>
                 <label>비밀번호</label>
-                <input type="password" name="memberPwd" value="${member.memberPwd}" readonly>
+                <input type="password" name="memberPw" value="${member.memberPw}" readonly>
               </li>
               <li>
                 <label>나이</label>
@@ -49,7 +49,7 @@
               </li>
             </ul>
             <div class="btn_wrap">
-            	<a href="/member/update.gg?memberId=${member.memberId}" class="btn_update">수정페이지이동</a>
+            	<a href="/member/update.do?memberId=${member.memberId}" class="btn_update">수정페이지이동</a>
            	</div>
           </form>
         </div>

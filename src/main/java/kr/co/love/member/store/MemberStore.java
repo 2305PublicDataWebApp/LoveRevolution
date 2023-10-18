@@ -12,4 +12,10 @@ public interface MemberStore {
 
 	public Member selectOneById(SqlSession session, String memberId);
 
+	public int deleteMember(SqlSession session, String memberId);
+
+	public Member selectCountCheck(SqlSession session, Member member);
+
+	public int updateMember(SqlSession session, Member member);
+
 }

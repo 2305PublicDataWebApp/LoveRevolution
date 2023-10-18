@@ -13,6 +13,7 @@
 	    	</c:if>
 	    	
 	    	<c:if test = "${memberId ne null}">
+                <h2 class="session_txt"><strong>${memberName }</strong>님 ,환영합니다.</h2>
         		<li class="menu_right_item"><a href="/member/logout.do">로그아웃</a></li>
         		<li class="menu_right_item"><a href="/member/mypage.do">마이페이지</a></li>
         		<li class=menu_right_item><a href="/notice/list.do">공지사항</a></li>

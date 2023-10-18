@@ -10,5 +10,11 @@ public interface MemberService {
 
 	public Member showOneById(String memberId);
 
+	public int deleteMember(String memberId);
+
+	public Member selectCountCheck(Member member);
+
+	public int updateMember(Member member);
+
 
 }

@@ -11,7 +11,7 @@
 	<main class="main notice notice_write" id="notice_write">
     	<div class="container">
         <div class="notice_insert_wrap">
-          <form action="/notice/write.gg" method="post" enctype="multipart/form-data">
+          <form action="/notice/write.do" method="post" enctype="multipart/form-data">
             <h1 class="main_txt">게시글 등록</h1>
             <ul>
               <li>
