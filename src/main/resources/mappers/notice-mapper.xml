@@ -12,6 +12,31 @@
 		<result property="nUpdateDate"      	column="N_UPDATE_DATE"/>
 	</resultMap>
 	
+	<insert id="insertNotice">
+		INSERT INTO NOTICE_TBL VALUES(SEQ_NOTICE_NO.NEXTVAL, #{noticeTitle },#{noticeContent },#{noticeAdmin},DEFAULT,DEFAULT)
+	</insert>
+	
+	<select id="selectListCount"  resultType="_int">
+		SELECT COUNT(*) FROM NOTICE_TBL
+	</select>
+	
+	<select id="selectNotice" resultMap="noticeResultMap">
+		SELECT * FROM NOTICE_TBL ORDER BY NOTICE_NO DESC
+	</select>
+	
+	<select id="selectNoticeByNo" resultMap="noticeResultMap">
+		SELECT * FROM NOTICE_TBL WHERE NOTICE_NO = #{noticeNo }
+	</select>
+	
+	<delete id = "deleteNotice" >
+		DELETE FROM NOTICE_TBL WHERE NOTICE_NO = #{noticeNo }
+	</delete>
+	
+	<update id="updateNotice" >
+		UPDATE NOTICE_TBL SET NOTICE_TITLE =#{noticeTitle}, NOTICE_CONTENT = #{noticeContent},
+		N_UPDATE_DATE = DEFAULT WHERE NOTICE_NO = #{noticeNo}
+	</update>
+	
 	
 	
 </mapper>

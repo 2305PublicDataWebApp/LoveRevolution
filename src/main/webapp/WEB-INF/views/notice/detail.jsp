@@ -31,7 +31,7 @@
           <button type="button" onclick="showModifyPage();" class="btn btn_update">수정하기</button>
           <button type="button" onclick="deleteNotice();" class="btn btn_delete">삭제하기</button>
         </c:if>
-          <a href="/notice/list.gg" class="btn btn_list">목록으로</a>
+          <a href="/notice/list.do" class="btn btn_list">목록으로</a>
         </div>
       </div>
 		</div>
@@ -41,12 +41,12 @@
 	<script>
 		function showModifyPage() {
 			const noticeNo = "${notice.noticeNo}";
-			location.href="/notice/modify.gg?noticeNo="+noticeNo;
+			location.href="/notice/modify.do?noticeNo="+noticeNo;
 		}
 		function deleteNotice() {
       if(confirm("공지사항을 삭제하시겠습니까?")) {
         const noticeNo = "${notice.noticeNo }";
-        const deleteUrl = "/notice/delete.gg?noticeNo=" + noticeNo;
+        const deleteUrl = "/notice/delete.do?noticeNo=" + noticeNo;
         // 확인을 누르면 삭제 요청을 보냄
         location.href = deleteUrl;
       }

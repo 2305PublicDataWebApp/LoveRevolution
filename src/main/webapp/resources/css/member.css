@@ -8,7 +8,7 @@
 #member_login .login_wrap input:focus { border:2px solid #07f; }
 #member_login .login_wrap .login_id { margin:0 0 10px; }
 #member_login .btn_wrap { margin:30px 0 0; }
-#member_login .btn_submit { display:block; padding:19px 0; width:100%; font-size:18px; background-color: #17191d; color:#fff; font-weight:700; cursor:pointer }
+#member_login .btn_submit { display:block; padding:19px 0; width:100%; font-size:18px; background-color: #105dae; border: 1px solid #105dae; color:#fff; font-weight:700; cursor:pointer }
 
 /* 회원가입 페이지 (/register.gg) */
 #member_register .register_wrap { padding:60px 0; }
