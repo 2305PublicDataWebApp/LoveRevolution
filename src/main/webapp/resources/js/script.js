@@ -99,8 +99,13 @@ timeline04.staggerFrom(  $("#community .titleBox h2 .char") , 1 , {
 })    
 
                                                                                          
-
-
+// 메인 페이지 마우스호버
+/*$("#mainpage #business .iconList li").on("mouseenter",function(){
+    $("#business .iconList li").addClass("on");
+});
+$("#mainpage #business .iconList li").on("mouseleave",function(){
+    $("#business .iconList li").removeClass("on");
+});*/
 
 
 

@@ -6,7 +6,18 @@
 #portfolio { background:url(/resources/images/common/main_bg03.jpg); }
 #community { background:url(/resources/images/common/main_bg04.jpg); }
 #mainpage .titleBox { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:40px; text-align:center }
+#business .titleBox { top:30%; }
 #business .red_txt { color:#e31a20; }
+#business .iconList { display:flex; justify-content:center; }
+#business .iconList li { width: 164px; height:164px; cursor: pointer;  }
+#business .iconList li:after { content:''; display:block; width:100%; height:100%; position:absolute; top:0; left:0; background:url(/resources/images/common/img_box.png) center / cover no-repeat; z-index:-1; }
+#business .iconList li:nth-child(2) { margin:0 10px; }
+#business .iconList li .icon { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); }
+#business .iconList .box_txt_wrap { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:100%; text-align:center;  }
+#business .iconList .box_txt { padding:0 14px; font-size:14px; opacity:0; color:#fff; }
+#business .iconList li:hover:after { background:url(/resources/images/common/img_box_on.png) center / cover no-repeat; transition:all 0.3s; }
+#business .iconList li:hover .box_txt { opacity:1; transition:all 0.3s; } 
+#business .iconList li:hover .icon { z-index:-2; }
 #community .titleBox { color:#fff; }
 
 /* fp-nav */
