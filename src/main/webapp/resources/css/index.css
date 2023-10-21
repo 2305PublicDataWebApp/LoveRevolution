@@ -19,6 +19,8 @@
 #business .iconList li:hover .box_txt { opacity:1; transition:all 0.3s; } 
 #business .iconList li:hover .icon { z-index:-2; }
 #community .titleBox { color:#fff; }
+#mainpage .button_position { position:fixed; bottom:230px; left:50%; transform:translate(-50%,0); }
+
 
 /* fp-nav */
 #fp-nav ul li { display: block; width: 30px; height: 30px; margin: 10px 0; position:relative; }
