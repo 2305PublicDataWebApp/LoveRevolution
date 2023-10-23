@@ -21,7 +21,6 @@
 #community .titleBox { color:#fff; }
 #mainpage .button_position { position:fixed; bottom:230px; left:50%; transform:translate(-50%,0); }
 
-
 /* fp-nav */
 #fp-nav ul li { display: block; width: 30px; height: 30px; margin: 10px 0; position:relative; }
 #fp-nav ul li:last-child {display: none;}
